@@ -1,0 +1,19 @@
+(require-packages '(evil-leader))
+
+(require 'evil-leader)
+(global-evil-leader-mode)
+
+(evil-leader/set-leader "<SPC>")
+(evil-leader/set-key "<SPC>" 'smex)
+(evil-leader/set-key "ff" 'ido-find-file)
+(evil-leader/set-key "fs" 'save-buffer)
+(evil-leader/set-key "fe" 'save-buffers-kill-terminal)
+
+(evil-leader/set-key "wl" 'evil-window-left)
+(evil-leader/set-key "wk" 'evil-window-top)
+(evil-leader/set-key "wj" 'evil-window-bottom)
+(evil-leader/set-key "wh" 'evil-window-left)
+(evil-leader/set-key "wv" 'evil-window-vsplit)
+(evil-leader/set-key "ws" 'evil-window-split)
+
+(provide 'init-evil-leader)

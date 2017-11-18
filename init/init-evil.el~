@@ -1,0 +1,7 @@
+(require-packages '(evil))
+
+(setq evil-mode-line-format 'before)
+(setq evil-esc-delay 0)
+(evil-mode 1)
+
+(provide 'init-evil)

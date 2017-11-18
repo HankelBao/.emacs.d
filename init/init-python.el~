@@ -1,0 +1,6 @@
+(require-packages '(company-jedi exec-path-from-shell))
+
+(add-hook 'python-mode-hook 'company-jedi)
+(exec-path-from-shell-copy-env "PYTHONPATH"))
+
+(provide 'init-python)
