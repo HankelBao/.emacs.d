@@ -1,4 +1,4 @@
-(require-packages '(projectile))
+(require-packages '(projectile ag))
 (require 'projectile)
 (setq projectile-cache-file (expand-file-name  "projectile.cache" savefile-dir))
 (projectile-global-mode t)

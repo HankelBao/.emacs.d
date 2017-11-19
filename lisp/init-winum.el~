@@ -1,0 +1,5 @@
+(require-packages '(winum))
+(require 'winum)
+(winum-set-keymap-prefix (kbd "<SPC>"))
+(winum-mode 1)
+(provide 'init-winum)
