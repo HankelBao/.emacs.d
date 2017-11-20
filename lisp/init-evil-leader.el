@@ -36,6 +36,11 @@
 (evil-leader/set-key "9" 'winum-select-window-9)
 
 (evil-leader/set-key "uc" 'find-file "C:/Users/hankelbao/home/.emacs.d/init.el")
+
 (evil-leader/set-key "pf" 'projectile-find-file)
+(evil-leader/set-key "pc" 'wg-create-workgroup)
+(evil-leader/set-key "pr" 'wg-rename-workgroup)
+(evil-leader/set-key "pk" 'wg-kill-workgroup)
+(evil-leader/set-key "ps" 'wg-switch-to-workgroup)
 
 (provide 'init-evil-leader)
