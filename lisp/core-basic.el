@@ -1,6 +1,6 @@
 ;; Themes
 ;;(require-packages '(color-theme-sanityinc-tomorrow))
-(require-packages '(monokai-alt-theme))
+(require-packages '(monokai-alt-theme base16-theme))
 ;; (load-theme 'sanityinc-tomorrow-bright t)
 (load-theme 'monokai-alt t)
 

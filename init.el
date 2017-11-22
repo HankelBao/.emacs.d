@@ -37,7 +37,6 @@
 (require 'init-linum-relative)
 (require 'init-which-key)
 (require 'init-projectile)
-;;(require 'init-ido)
 (require 'init-ivy)
 (require 'init-flycheck)
 (require 'init-company)
