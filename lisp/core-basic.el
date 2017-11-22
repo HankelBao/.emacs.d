@@ -1,10 +1,12 @@
 ;; Themes
-(require-packages '(color-theme-sanityinc-tomorrow))
-(load-theme 'sanityinc-tomorrow-bright t)
+;;(require-packages '(color-theme-sanityinc-tomorrow))
+(require-packages '(monokai-alt-theme))
+;; (load-theme 'sanityinc-tomorrow-bright t)
+(load-theme 'monokai-alt t)
 
 ;; EMACS Hide Bar
 (tool-bar-mode 0)
-;;(menu-bar-mode 0)
+(menu-bar-mode 0)
 (scroll-bar-mode 0)
 
 ;; the blinking cursor is nothing, but an annoyance

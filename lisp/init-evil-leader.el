@@ -5,12 +5,13 @@
 
 (evil-leader/set-leader "<SPC>")
 
-(evil-leader/set-key "<SPC>" 'smex)
+(evil-leader/set-key ";" 'counsel-M-x)
+(evil-leader/set-key "'" 'shell-command)
 
-(evil-leader/set-key "ff" 'ido-find-file)
+(evil-leader/set-key "ff" 'find-file)
 (evil-leader/set-key "fs" 'save-buffer)
 (evil-leader/set-key "fe" 'save-buffers-kill-terminal)
-(evil-leader/set-key "fb" 'ido-switch-buffer)
+(evil-leader/set-key "fb" 'ivy-switch-buffer)
 (evil-leader/set-key "fF" 'toggle-frame-fullscreen)
 
 (evil-leader/set-key "wl" 'evil-window-right)
@@ -35,9 +36,7 @@
 (evil-leader/set-key "8" 'winum-select-window-8)
 (evil-leader/set-key "9" 'winum-select-window-9)
 
-(evil-leader/set-key "uc" 'find-file "C:/Users/hankelbao/home/.emacs.d/init.el")
-
-(evil-leader/set-key "pf" 'projectile-find-file)
+(evil-leader/set-key "o" 'projectile-find-file)
 (evil-leader/set-key "pc" 'wg-create-workgroup)
 (evil-leader/set-key "pr" 'wg-rename-workgroup)
 (evil-leader/set-key "pk" 'wg-kill-workgroup)
