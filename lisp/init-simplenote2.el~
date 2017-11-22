@@ -1,0 +1,8 @@
+(require-packages '(simplenote2))
+
+(require 'simplenote2)
+(setq simplenote2-email "hankelbao@outlook.com")
+(setq simplenote2-password "arche139286489")
+(simplenote2-setup)
+
+(provide 'init-simplenote2)
