@@ -1,0 +1,9 @@
+(require-packages '(lsp-mode company-lsp lsp-python lsp-java))
+
+(require 'lsp-mode)
+(require 'lsp-python)
+(require 'lsp-java)
+(add-hook 'python-mode-hook #'lsp-python-enable)
+(add-hook 'java-mode-hook #'lsp-java-enable)
+
+(provide 'init-lsp)
