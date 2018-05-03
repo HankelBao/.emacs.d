@@ -11,11 +11,11 @@
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
    (quote
-    ("3380a2766cf0590d50d6366c5a91e976bdc3c413df963a0ab9952314b4577299" "d83e34e28680f2ed99fe50fea79f441ca3fddd90167a72b796455e791c90dc49" "25c242b3c808f38b0389879b9cba325fb1fa81a0a5e61ac7cae8da9a32e2811b" "ef04dd1e33f7cbd5aa3187981b18652b8d5ac9e680997b45dc5d00443e6a46e3" "0c3b1358ea01895e56d1c0193f72559449462e5952bded28c81a8e09b53f103f" "3c83b3676d796422704082049fc38b6966bcad960f896669dfc21a7a37a748fa" "eea01f540a0f3bc7c755410ea146943688c4e29bea74a29568635670ab22f9bc" "e9460a84d876da407d9e6accf9ceba453e2f86f8b86076f37c08ad155de8223c" default)))
+    ("6145e62774a589c074a31a05dfa5efdf8789cf869104e905956f0cbd7eda9d0e" "3380a2766cf0590d50d6366c5a91e976bdc3c413df963a0ab9952314b4577299" "d83e34e28680f2ed99fe50fea79f441ca3fddd90167a72b796455e791c90dc49" "25c242b3c808f38b0389879b9cba325fb1fa81a0a5e61ac7cae8da9a32e2811b" "ef04dd1e33f7cbd5aa3187981b18652b8d5ac9e680997b45dc5d00443e6a46e3" "0c3b1358ea01895e56d1c0193f72559449462e5952bded28c81a8e09b53f103f" "3c83b3676d796422704082049fc38b6966bcad960f896669dfc21a7a37a748fa" "eea01f540a0f3bc7c755410ea146943688c4e29bea74a29568635670ab22f9bc" "e9460a84d876da407d9e6accf9ceba453e2f86f8b86076f37c08ad155de8223c" default)))
  '(lsp-project-whitelist nil)
  '(package-selected-packages
    (quote
-    (lsp-python lsp-mode counsel linum-relative ivy atom-dark-theme workgroups2 winum which-key smex projectile monokai-alt-theme magit ido-completing-read+ flycheck-color-mode-line flx-ido evil-leader company-jedi color-theme-sanityinc-tomorrow beacon ag))))
+    (company-lsp lsp-python lsp-mode counsel linum-relative ivy atom-dark-theme workgroups2 winum which-key smex projectile monokai-alt-theme magit ido-completing-read+ flycheck-color-mode-line flx-ido evil-leader company-jedi color-theme-sanityinc-tomorrow beacon ag))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -33,13 +33,11 @@
 (require 'init-editor)
 (require 'init-evil)
 (require 'init-which-key)
-;;(require 'init-projectile)
+(require 'init-projectile)
 (require 'init-ivy)
-;;(require 'init-flycheck)
-;;(require 'init-company)
-;;(require 'init-python)
-(require 'init-lsp)
+(require 'init-language)
 (require 'init-magit)
 (require 'init-mappings)
 (require 'init-workgroups2)
+
 

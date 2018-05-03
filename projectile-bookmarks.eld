@@ -1,1 +1,1 @@
-("~/.emacs.d/" "~/Workspace/tagged-server/")
+("~/.emacs.d/" "~/Workspace/tagged-server/" "~/Workspace/JavaCalculator/" "~/Workspace/test/TestJava/JavaTest/")
